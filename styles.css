@@ -1,0 +1,54 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#main {
+    background-color: lightsteelblue;
+    width: 43%;
+    height: auto;
+    padding: 2rem;
+    margin-left: 436px;
+    margin-right: 436px;
+}
+
+h1, 
+p {
+    text-align: center;
+}
+
+input,
+select,
+label {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 640px;
+    height: 30px;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin: 0;
+    width: 1em;
+}
+
+#radio3,
+#label-end {
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    width: 1.3em;
+}
+
+input[type="textarea"] {
+    height: 10em;
+}
+
+input[type="submit"] {
+    height: 3em;
+    background-color: forestgreen;
+    color: white;
+}
+
